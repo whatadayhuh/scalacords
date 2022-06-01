@@ -1,0 +1,36 @@
+[0m[[0m[31merror[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\Coordinates.scala:46:23: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.collection.mutable.ArrayBuffer[Double][0m
+[0m[[0m[31merror[0m] [0m[0m required: Seq[Double][0m
+[0m[[0m[31merror[0m] [0m[0m    val mid = average(ls)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\TimezoneIndex.scala:23:99: value length is not a member of scala.collection.View[String][0m
+[0m[[0m[31merror[0m] [0m[0m        val adjustedMin = min - memoryIndex.view(min-1000, min).reverse.takeWhile(_ == foundHash).length[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\TimezoneIndex.scala:24:91: value length is not a member of scala.collection.View[String][0m
+[0m[[0m[31merror[0m] [0m[0m        val adjustedMax = max - memoryIndex.view(max, max+1000).takeWhile(_ == foundHash).length[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\TimezoneIndex.scala:59:11: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method break,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          break[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\TimezoneIndex.scala:64:11: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method break,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          break[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\TimezoneIndex.scala:76:11: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method break,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          break[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\TimezoneIndex.scala:83:11: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method break,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function.[0m
+[0m[[0m[33mwarn[0m] [0m[0m          break[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mE:\Program Files\Projects\scalacords\src\main\scala\TimezoneIndex.scala:3:18: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport java.time.ZoneId[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
