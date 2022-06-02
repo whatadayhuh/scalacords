@@ -7,9 +7,9 @@ It is entirely functional, immutable, and free of side effects.
 INSTALL
 -------
 
-Clone scalachess
+Clone scalacords
 
-    git clone git://github.com/ornicar/scalachess
+    git clone git://github.com/whatadayhuh/scalacords/
 
 Get latest sbt on http://www.scala-sbt.org/download.html
 
@@ -32,6 +32,7 @@ Code formatting
 This repository uses [scalafmt](https://scalameta.org/scalafmt/).
 
 Please [install it for your code editor](https://scalameta.org/scalafmt/docs/installation.html)
+
 if you're going to contribute to this project.
 
 If you don't install it, please run `scalafmtAll` in the sbt console before committing.
